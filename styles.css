@@ -26,19 +26,9 @@ body {
     text-transform: uppercase;
 }
 
-.cc{
-    position: absolute;
-    height: 10px;
-    background-color: red;
-    width: 500px;
-    z-index: 99;
-    right: 0;
-    bottom: -66px;
-    display: none;
-}
-
 
 .write{
+  
     position: relative;
     display: grid;
     gap: 20px;
@@ -49,7 +39,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill,200px);
     gap: 20px;
-    display: none;
+    
 }
 
 .card{
