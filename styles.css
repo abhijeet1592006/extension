@@ -4,22 +4,36 @@ body {
 }
 
 .input {
-    display: none;
+    display: grid;
     line-height: 30px;
-
-    
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    padding: 1.8rem;
+    font-size: 1.5rem;
+    border-radius: 1.6rem;
     opacity: 0.8;
     background-size: 30px 30px;
     background-image: repeating-linear-gradient(0deg, #444cf7, #444cf7 1px, #e5e5f7 1px, #e5e5f7);
 
 
 }
+.input.heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.write{
+    display: grid;
+    gap: 20px;
+}
 
 .homepage{
+
     display: grid;
     grid-template-columns: repeat(auto-fill,200px);
     gap: 20px;
-    
+    display: none;
 }
 
 .card{
