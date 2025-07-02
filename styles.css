@@ -1,3 +1,5 @@
+
+
 body {
     padding: 10px;
     background-color:#1e1e2f;
@@ -20,10 +22,10 @@ body {
 }
 
 .input.heading{
+    
     text-align: center;
     font-weight: bold;
     font-size: 2rem;
-    text-transform: uppercase;
 }
 
 
@@ -96,4 +98,23 @@ body {
     height: 70px;
     width: 70px;
 
+}
+
+.s{
+    position: absolute;
+    height: 50px;
+
+    background-color: rgba(34, 255, 79, 0.717);
+    border-radius: 1.6rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10px;
+    transform: translateX(-50%),translateY(-50%);
+    font-size: 2rem;
+    place-content: center;
+
+    text-align: center;
+
+    display: none;
 }
